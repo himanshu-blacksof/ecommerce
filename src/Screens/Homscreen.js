@@ -1,6 +1,17 @@
+// import axios from 'axios';
+// import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Data from '../Data';
+
 function Homscreen() {
+  // const [products, setProducts] = useState([]);
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const result = await axios.get('/api/products');
+  //     setProducts(result.Data);
+  //   };
+  //   fetchData();
+  // }, []);
   return (
     <>
       <h1>Featured Product</h1>
